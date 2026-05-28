@@ -5,7 +5,7 @@ package com.example.AEINK2007;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "Hola AEINK";
     }
 
     public static void main(String[] args) {
