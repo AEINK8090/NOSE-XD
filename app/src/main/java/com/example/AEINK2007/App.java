@@ -3,6 +3,7 @@
  */
 package com.example.AEINK2007;
 
+import java.util.Scanner;
 public class App {
     public String getGreeting() {
         return "Hola AEINK";
@@ -10,5 +11,26 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println("Programacion estructurada");
+        tabla_multiplicar();
+        
+    }
+    public static void tabla_multiplicar(){
+        System.out.println("Tabla de multiplicar de un numero");
+        System.out.println("INgrese un numero para mostrar su tabla");
+        Scanner sc = new Scanner(System.in);
+        
+        int numero = sc.nextInt();
+        
+        for (int i = 1; i <= 12; i++) {
+            int multi = i*numero;
+            
+            System.out.println("La multiplicacion de "+ i +" por "+ numero + " es igual a "+multi);
+            
+     
+            
+        }
+        
+        
     }
 }
